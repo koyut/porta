@@ -14,7 +14,7 @@ jobs:
         name: Set up Git
         run: |
           git clone https://github.com/portapps/portapps.git tmp
-          mv tmp/.build ../
+          mv tmp/.build ./
           rm -rf tmp
           git config user.name GitHub
           git config user.email noreply@github.com
